@@ -1,26 +1,3 @@
- Skip to content
-This repository
-
-    Explore
-    Gist
-    Blog
-    Help
-
-    shavrovaktivcompany shavrovaktivcompany
-
-    14
-    76
-    378
-
-docker-library/postgres forked from postgres/postgres
-
-postgres/9.3/docker-entrypoint.sh
-yosifkit yosifkit 19 days ago
-Add POSTGRES_PASSWORD and USER, with warning on no password
-
-3 contributors
-Mike Dillon yosifkit Tianon Gravi
-executable file 57 lines (46 sloc) 1.403 kb
 #!/bin/bash
 set -e
 if [ "$1" = 'postgres' ]; then
@@ -68,16 +45,4 @@ exec gosu postgres "$@"
 fi
 exec "$@"
 
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2014 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
 
